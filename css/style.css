@@ -1,0 +1,20 @@
+body, .container-fluid{
+    width:100%;
+    margin: 0%;
+    padding:0%;
+}
+
+.row{
+    border-bottom:2px solid #000;
+}
+
+.nav-bar, .footer{
+    background-color: antiquewhite;
+    width: 100%;
+    padding:1%;
+}
+
+.main-img{
+    width:100%;
+    margin: 2%;
+}
