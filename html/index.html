@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Where To</title> 
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <link rel="icon" href="./icons8-automobile-91.png">
+    
+    
+    <title>Where To</title> 
+    
 </head>
 <body>
     <div class="container-fluid">
@@ -16,15 +23,14 @@
                 <!-- <a href = "tGuide.html"> tour guid</a>
                 <a href = "city1.html"> city1</a> -->
 
-               
-                <nav class="navbar navbar-expand-lg bg-dark">
-                    
+                <nav class="navbar navbar-expand-lg">
+
                       
 
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link "  href="./index.html">Home</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="./tGuide.html">Tour Guide</a>
@@ -34,17 +40,14 @@
                               Dropdown
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Riyadh</a></li>
-                              <li><a class="dropdown-item" href="#">Jeddah</a></li>
-                              <li><a class="dropdown-item" href="#">Dammam</a></li>
+                              <li><a class="dropdown-item" href="./city1.html">Riyadh</a></li>
+                              <li><a class="dropdown-item" href="./city2.html">Jeddah</a></li>
+                              <li><a class="dropdown-item" href="./city3.html">Dammam</a></li>
                             </ul>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                          </li>
+
                         </ul>
                       </div>
-                    
                   </nav>
 
         </div>
@@ -54,7 +57,7 @@
         </div>
         
 
-        <div class="row dist">
+        <div class="row dist-card">
             <!--Change name of class-->
             <div class="col-4">
             <div class="card text-center" style="width: 18rem;">
@@ -103,10 +106,11 @@
         <div class="row footer-basic">
            
                 <footer>
-                    <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#">
-                        <i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter">
-
-                        </i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <div class="social">
+                      <a href="#"><iconify-icon icon="ion:logo-instagram"></iconify-icon></a>
+                      <a href="#"><iconify-icon icon="ion:logo-snapchat"></iconify-icon></a>
+                      <a href="#"><iconify-icon icon="ion:logo-tiktok"></iconify-icon></a>
+                      <a href="#"><iconify-icon icon="ion:logo-twitter"></iconify-icon></a>
                     </div>
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="#">Home</a></li>
