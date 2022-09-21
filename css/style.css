@@ -38,23 +38,25 @@ body, .container-fluid{
     width:100%;
     margin: 2%;
 }
-
-
-.dist{
+ 
+/* design for in index card */
+.dist-card{
     padding-left: 8%;
 }
 
+/* end design for card */
+
 .footer-basic {
     padding:10px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
-    margin-left: 7%;
- 
-
+    background-color: #2e541b;
+    color: #FFFBEB;
+    font-weight: 600;
+    font-size: medium;
   }
 
+
   footer{
-    max-height: 4%;
+    max-height: 2%;
 
   }
   
@@ -83,7 +85,7 @@ body, .container-fluid{
   
   .footer-basic .social {
     text-align:center;
-    padding-bottom:25px;
+    padding-bottom:20px;
   }
   
   .footer-basic .social > a {
