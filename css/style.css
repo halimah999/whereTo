@@ -113,3 +113,48 @@ body, .container-fluid{
     color:#aaa;
     margin-bottom:0;
   }
+
+  /* styles  cards of tour guide*/
+  .cardscard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-gap: 20px;
+    padding: 15px;
+}
+
+.card001 {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border-radius: 15px;
+    padding: 20px; 
+    background-color: rgb(249, 246, 246);
+}
+
+.card001 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: black solid 1px;  
+
+
+}
+.content001 > h3 { 
+    text-align: center;
+background-color: white;
+border: black solid 1px;  
+}
+.content001 > h1 {
+text-align: center;
+background-color: white;
+}
+
+.footer001 {
+color: gray;
+font-size: small;
+}
+
+.star{
+color:orange;
+
+}
+
